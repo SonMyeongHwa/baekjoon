@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class acmicpc_2839_설탕배달 {
+public class acmicpc_2839_������� {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,7 +8,7 @@ public class acmicpc_2839_설탕배달 {
         int sugar = sc.nextInt();
         int result = 0;
 
-        if(sugar >= 5) { //5kg이상
+        if(sugar >= 5) {
             if(sugar % 5 == 0) {
                 result = sugar / 5;
             }
@@ -32,7 +32,7 @@ public class acmicpc_2839_설탕배달 {
                 result = -1;
             }
         }
-        else { //4kg이하
+        else {
             if(sugar % 3 == 0) {
                 result = sugar / 3;
             }
